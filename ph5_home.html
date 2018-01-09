@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="myStyle.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <style>
@@ -29,38 +30,10 @@
   </head>
 
   <body>
-
+    <div class="content_wrapper">
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Frank Rice</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="curvefit.html">CurveFit</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Ph 5
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Ph 6</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Ph 7</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <script src="navbar.js"></script>
+
 
     <!-- Page Content -->
     <div class="container">
@@ -80,67 +53,71 @@
           <p> 9 units (0-5-4), offered first term</p>
           <!-- Replace with contact information for Frank -->
           <div class="container">
-            <h3>Information</h3>
+            <h4>Basic Information</h4>
             <div class="row">
-              <div class="col-md-6 border">
+              <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">README</h5>
+                  <p class="card-text">Course overview, policies, and schedule.</p>
                 <a href="Physics_5/Physics_5_105_README.pdf" class="btn btn-lg download-btn-outline" target="_blank">
-                  <i class="fa fa-download"></i> README
+                  <i class="fa fa-download"></i> Download
                 </a>
               </div>
-              <div class="col-md-6 border">
+              </div>
+              </div>
+              <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Introduction</h5>
+                  <p class="card-text">An overview of the course and experiments</p>
                 <a href="Physics_5/Physics_5_105_Intro.pdf" class="btn btn-lg download-btn-outline" target="_blank">
                   <i class="fa fa-download"></i> Introduction
                 </a>
               </div>
             </div>
+            </div>
+            </div>
           </div>
+          <hr>
           <div class="container">
             <div class="row">
-              <div class="col-md-3 border">
-                <a href="ph5_experiments.html">Experiments</a>
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-body">
+                    <a href="ph5_experiments.html">Experiments</a>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-3 border">
-                <a href="ph5_equipment.html">Equipment</a>
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-body">
+                    <a href="ph5_equipment.html">Equipment</a>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-3 border">
-                <a href="ph5_dataSheets.html">Data Sheets</a>
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-body">
+                    <a href="ph5_dataSheets.html">Data Sheets</a>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-3 border">
-                <a href="ph5_circuits.html">Useful Circuits</a>
+              <div class="col-md-3">
+                <div class="card">
+                  <div class="card-body">
+                    <a href="ph5_circuits.html">Useful Circuits</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
+    </div>
     <!-- Footer (Contact) -->
-    <footer class="text-center">
-      <div class="card-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <p>Frank Rice<br>Bridge 207 <br>PHONE <br> EMAIL </p>
-            </div>
-            <div class="col-md-6">
-              <address>
-                MSC ??? <br>
-                1200 E. California Blvd. <br>
-                Pasadena, CA 91125 <br>
-              </address>
-
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="card-footer:last-child">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12"> All rights reservced &copy;</div>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <script src="footer.js"></script>
 
 
 
